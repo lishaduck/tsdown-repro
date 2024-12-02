@@ -6,4 +6,9 @@ export default defineConfig({
     transformer: "oxc",
   },
   clean: true,
+  inputOptions: {
+    watch: {
+      exclude: [".jj"],
+    },
+  },
 });
